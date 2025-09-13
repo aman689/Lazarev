@@ -198,24 +198,43 @@ nav button svg {
     z-index: 2;
 }
 
-
-
-
-
-
-
-
 /* ------------------- PAGE 2 ------------------- */
 #page2 {
     height: 100vh;
     width: 100%;
     background-color: #111;
+    position: relative;
+    padding: 0vw 10.5vw;
+    padding-bottom: 8vw;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #333;
+    justify-content: space-between;
 }
-#page2 h1 {
-    font-size: 8.5vw;
-    text-transform: uppercase;
-    font-weight: 900;
-    line-height: 8.5vw;
-    text-align: center;
-    padding-top: 20vh;
+
+
+#page2-left {
+    height: 100%;
+    width: 40%;
+    /* background-color: #333; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 3vw 0;
+}
+
+#page2-left p{
+    font-size: 0.8vw;
+}
+
+#page2-left h5{
+    width: 75%;
+    font-weight: 400;
+    font-size: 1.1vw;
+}
+#page2-right {
+    height: 100%;
+    width: 60%;
+    background-color: #333;
 }
